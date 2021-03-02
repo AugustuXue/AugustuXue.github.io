@@ -1,0 +1,180 @@
+mode: auto
+
+avatar:
+  enable: true
+  url: /images/https://gitee.com/augustusxue/augustu_image/raw/master/img/20210218121833.jpg
+  status:
+    enable: true
+    emoji: 🌑
+    message: Looking for dawn.
+
+
+reward:
+  enable: true
+  icon: icon-hand-coin-line
+  comment: 我很可爱，请给我钱.
+  # url: https://github.com/YunYouJun/yunyoujun.github.io/issues/96
+  methods:
+    - name: 支付宝
+      path: https://gitee.com/augustusxue/augustu_image/raw/master/img/20210302115447.png
+      color: "#00A3EE"
+      icon: icon-alipay-line
+      
+
+    - name: 微信支付
+      path: https://gitee.com/augustusxue/augustu_image/raw/master/img/20210302115504.png
+      color: "#2DC100"
+      icon: icon-wechat-pay-line
+    #- name: QQ 支付
+    #  path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/qqpay-qrcode.png
+    #  color: "#12B7F5"
+    #  icon: icon-qq-line
+
+comment:
+  tips:
+    - 如果您有任何关于博客内容的相关讨论，欢迎前往 <a href="https://github.com/AugustuXue/augustuxue.github.io/discussions" target="_blank">GitHub Discussions</a> 与我交流。
+
+waline:
+  enable: true
+  serverURL: #https://waline.yunyoujun.cn
+  visitor: true
+  comment: true
+  avatarCDN: #https://cdn.v2ex.com/gravatar/
+  placeholder: 填写邮箱，可以收到回复通知哦～
+  requiredFields: ["nick"]
+
+github_issues:
+  enable: false
+
+github_discussions:
+  enable: false
+
+disqusjs:
+  enable: false
+  shortname: augustuxue
+  apikey: ouoGQCaamOKdJgyZU5DKcpFnRIg3SNzvk0nwygPtlcTRJuE68c8igvrZGW4wAJoN
+
+footer:
+  live_time:
+    enable: true
+    prefix: 本博客已萌萌哒地运行
+    suffix: (●'◡'●)
+    start_time: "2021-03-2T00:00:00"
+  since: 2021
+  beian:
+    enable: false
+    icp: 苏ICP备17038157号
+  custom_text: <a style="display:inline-block" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="blank" title="又拍云"><img height="30" src="https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/logo/upyun-logo.png" alt="upyun"/></a>
+  # ...
+
+engine_search:
+  enable: false
+
+# If you want to use it, you need config algolia appID in _config.yml!!!
+# https://github.com/oncletom/hexo-algolia
+
+
+creative_commons:
+  license: by-nc-sa
+  post: true
+  language: deed.zh
+  clipboard: false
+
+
+google_analytics:
+  enable: true
+  id: UA-121354150-1
+
+google_adsense:
+  enable: true
+  client: ca-pub-2245427233262012
+
+post_edit:
+  enable: true
+  url: https://github.com/YunYouJun/yunyoujun.github.io/tree/hexo/source/
+
+albums:
+  enable: true
+
+girls:
+  enable: true
+
+tags:
+  动画: crimson
+  漫画: orange
+  Parcel: "#21374b"
+  学习: saddlebrown
+  MAD: crimson
+  教程: royalblue
+  笔记: dimgray
+  分享: "#0078e7"
+  随笔: mediumpurple
+  Blender: "#d04d2d"
+  Linux: "#2577b1"
+  中传: "#ccb44b"
+  部落: "#DD306A"
+  科幻: midnightblue
+
+categories:
+  #云游的小视频: "#FB7299"
+
+pages:
+  - name: 我的小伙伴们
+    url: /links/
+    icon: icon-genderless-line
+    color: dodgerblue
+  - name: #喜欢的女孩子
+    url: /girls/
+    icon: icon-women-line
+    color: hotpink
+
+menu:
+  home:
+    path: /
+    icon: icon-home-4-line
+  list:
+    - type: archives
+      path: /archives/
+      icon: icon-archive-line
+    - type: categories
+      path: /categories/
+      icon: icon-folder-2-line
+    - type: tags
+      path: /tags/
+      icon: icon-price-tag-3-line
+    # - path: https://www.yunyoujun.cn
+    #   icon: icon-cloud-line
+    #   count: 你猜
+  custom:
+    title: 文档
+    path: https://yun.yunyoujun.cn
+    icon: icon-settings-line
+
+cursor:
+  enable: true
+
+baidu_push: true
+
+google_tagmanager:
+  enable: true
+  id: GTM-M9KWR9L
+
+
+
+say:
+  api: https://el-bot-api.vercel.app/api/words/young
+  hitokoto:
+    enable: false
+
+# UI
+banner:
+  enable: true
+  title: 名吾的小站
+  src: /js/ui/banner.js
+  border: true
+  cloud:
+    enable: true
+    color: "white"
+  go_down:
+    enable: true
+    icon: icon-arrow-down-s-line
