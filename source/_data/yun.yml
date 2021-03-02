@@ -59,7 +59,7 @@ footer:
     enable: true
     prefix: 本博客已萌萌哒地运行
     suffix: (●'◡'●)
-    start_time: "2021-03-2T00:00:00"
+    start_time: "2021-03-02T00:00:00"
   since: 2021
   beian:
     enable: false
@@ -178,3 +178,72 @@ banner:
   go_down:
     enable: true
     icon: icon-arrow-down-s-line
+
+social:
+  - name: RSS
+    # set rss in your root config
+    # https://github.com/hexojs/hexo-generator-feed
+    link: /atom.xml # config.feed.path
+    icon: icon-rss-line
+    color: orange
+  #- name: QQ
+    # https://isux.tencent.com/wp-content/uploads/2016/05/20160512101222609.pdf
+   # link: https://wpa.qq.com/msgrd?v=3&uin=910426929&site=qq&menu=yes
+    #icon: icon-qq-line
+   # color: "#12B7F5"
+  - name: GitHub
+    link: https://github.com/AugustuXue
+    icon: icon-github-line
+    color: "#181717"
+  - name: E-Mail
+    link: augustus.xue@gmail.com
+    icon: icon-mail-line
+    color: "#8E71C1"
+  - name: 微博
+    link: https://weibo.com/augustusxue
+    icon: icon-weibo-line
+    color: "#E6162D"
+  #- name: 豆瓣
+  #  link: https://www.douban.com/people/yunyoujun/
+  #  icon: icon-douban-line
+  #  color: "#007722"
+  - name: Spotify
+    link: https://open.spotify.com/user/v8fqlugxraxnqrrv295j274dj?si=6tHrbWxLShuSl2Kg09cQbQ&utm_source=copy-link&nd=1
+    icon: icon-spotify1
+    color: 
+  - name: 知乎
+    link: https://www.zhihu.com/people/ming-wu-41-24
+    icon: icon-zhihu-line
+    color: "#0084FF"
+  - name: 哔哩哔哩动画
+    link: https://space.bilibili.com/439606986
+    icon: icon-bilibili-line
+    color: "#FF8EB3"
+
+  #- name: 微信公众号
+  #  link: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/about/white-qrcode-and-search.jpg
+  #  icon: icon-wechat-2-line
+  #  color: "#1AAD19"
+  - name: Twitter
+    link: https://twitter.com/AugustuXue
+    icon: icon-twitter-line
+    color: "#1da1f2"
+  - name: Telegram
+    link: https://t.me/augustusxue
+    icon: icon-telegram-line
+    color: "#0088CC"
+  #- name: Telegram Channel
+  #  link: https://t.me/elpsycn
+  #  icon: icon-telegram-fill
+  #  color: "#0088CC"
+  #- name: Travelling
+  #  link: https://travellings.now.sh/
+  #  icon: icon-send-plane-2-line
+  #  color: black
+
+head:
+  js:
+    async:
+      # 这里是你从 iconfont 处获得的图标链接。
+      iconfont: //at.alicdn.com/t/font_2395724_5sjeh05frrt.js
+
