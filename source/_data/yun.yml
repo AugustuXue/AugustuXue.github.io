@@ -2,7 +2,7 @@ mode: auto
 
 avatar:
   enable: true
-  url: /images/https://gitee.com/augustusxue/augustu_image/raw/master/img/20210218121833.jpg
+  url: https://gitee.com/augustusxue/augustu_image/raw/master/img/20210218121833.jpg
   status:
     enable: true
     emoji: 🌑
