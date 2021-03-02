@@ -201,7 +201,7 @@ social:
     icon: icon-github-line
     color: "#181717"
   - name: E-Mail
-    link: augustus.xue@gmail.com
+    link: mailto:augustus.xue@gmail.com
     icon: icon-mail-line
     color: "#8E71C1"
   - name: 微博
