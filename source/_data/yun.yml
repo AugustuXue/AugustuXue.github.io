@@ -74,9 +74,9 @@ local_search:
 
 engine_search:
   enable: true
-    href: "https://www.google.com/search?q=site:"
-    href: "https://www.baidu.com/s?wd=site:"
-    href: "https://www.bing.com/search?q=site:"
+  href: "https://www.google.com/search?q=site:"
+  # href: "https://www.baidu.com/s?wd=site:"
+  # href: "https://www.bing.com/search?q=site:"
   domain: augustu.xyz
 
 # If you want to use it, you need config algolia appID in _config.yml!!!
