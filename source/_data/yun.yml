@@ -12,7 +12,7 @@ avatar:
 reward:
   enable: true
   icon: icon-hand-coin-line
-  comment: 我很可爱，请给我钱.
+  comment: 赞赏
   # url: https://github.com/YunYouJun/yunyoujun.github.io/issues/96
   methods:
     - name: 支付宝
@@ -96,7 +96,7 @@ google_adsense:
 
 post_edit:
   enable: true
-  url: https://github.com/YunYouJun/yunyoujun.github.io/tree/hexo/source/
+  url: https://github.com/AugustuXue/augustuxue.github.io/tree/hexo/source
 
 albums:
   enable: true
