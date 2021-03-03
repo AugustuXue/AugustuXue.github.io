@@ -264,3 +264,35 @@ busuanzi:
   site_pv_icon: icon-eye-line
   page_pv: true
   page_pv_icon: icon-eye-line
+
+
+
+aplayer:
+  global: true
+  meting: true
+  # https://github.com/metowolf/MetingJS/tree/v1.2#option
+  widget:
+    enable: true
+    autoplay: true
+    # theme: "#2980b9"
+    loop: all
+    order: list
+    preload: auto
+    volume: 0.7
+    mutex: true
+    lrcType: 0
+    listFolded: false
+    listMaxHeight: 340px
+    audio:
+      - name: to the moon
+        artist: Kan R. Gao
+        url: http://music.163.com/song/media/outer/url?id=1645064.mp3
+        cover: https://gitee.com/augustusxue/augustu_image/raw/master/img/20210303174740.webp
+    meting:
+      enable: false
+      id: 308168565
+      server: netease
+      type: playlist
+
+pjax:
+  enable: true

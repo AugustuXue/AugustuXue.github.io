@@ -1,9 +1,10 @@
 ---
 title: OutLook微软邮件设置——添加QQ邮箱及Gmail邮箱
-date: 2021-03-03 11:34:15
-tags: 
+tags:
   - 教程
   - 分享
+abbrlink: fab99a30
+date: 2021-03-03 11:34:15
 ---
 
 # OutLook微软邮件设置——添加QQ邮箱及Gmail邮箱
