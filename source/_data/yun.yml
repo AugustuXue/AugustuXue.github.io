@@ -106,7 +106,7 @@ albums:
   enable: true
 
 girls:
-  enable: true
+  enable: false
 
 tags:
   动画: crimson
@@ -132,10 +132,10 @@ pages:
     url: /links/
     icon: icon-genderless-line
     color: dodgerblue
-  - name: #喜欢的女孩子
-    url: /girls/
-    icon: icon-women-line
-    color: hotpink
+  #- name: #喜欢的女孩子
+  #  url: /girls/
+  #  icon: icon-women-line
+  #  color: hotpink
 
 menu:
   home:
