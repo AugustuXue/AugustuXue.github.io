@@ -73,7 +73,11 @@ local_search:
   src: /js/search/local-search.js
 
 engine_search:
-  enable: false
+  enable: true
+    href: "https://www.google.com/search?q=site:"
+    href: "https://www.baidu.com/s?wd=site:"
+    href: "https://www.bing.com/search?q=site:"
+  domain: augustu.xyz
 
 # If you want to use it, you need config algolia appID in _config.yml!!!
 # https://github.com/oncletom/hexo-algolia
