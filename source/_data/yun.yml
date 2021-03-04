@@ -171,8 +171,8 @@ google_tagmanager:
 
 
 say:
-  enable: true
   api: /data/sentences.json #https://el-bot-api.vercel.app/api/words/young
+  enable: true 
   hitokoto:
     enable: false
 
