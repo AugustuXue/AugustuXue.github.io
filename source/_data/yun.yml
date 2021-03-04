@@ -1,5 +1,6 @@
 mode: auto
 
+
 avatar:
   enable: true
   url: https://gitee.com/augustusxue/augustu_image/raw/master/img/20210218121833.jpg
@@ -169,9 +170,9 @@ google_tagmanager:
   id: GTM-M9KWR9L
 
 
-
 say:
-  api: https://el-bot-api.vercel.app/api/words/young
+  enable: true
+  api: /data/sentences.json #https://el-bot-api.vercel.app/api/words/young
   hitokoto:
     enable: false
 
@@ -273,7 +274,7 @@ aplayer:
   # https://github.com/metowolf/MetingJS/tree/v1.2#option
   widget:
     enable: true
-    autoplay: true
+    autoplay: false
     # theme: "#2980b9"
     loop: all
     order: list
