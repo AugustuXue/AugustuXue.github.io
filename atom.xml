@@ -6,7 +6,7 @@
   <link href="https://augustuxue.github.io/atom.xml" rel="self"/>
   
   <link href="https://augustuxue.github.io/"/>
-  <updated>2021-03-05T04:05:44.286Z</updated>
+  <updated>2021-03-05T17:06:47.211Z</updated>
   <id>https://augustuxue.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>刺猬猫书籍下载</title>
+    <link href="https://augustuxue.github.io/posts/aae57e88/"/>
+    <id>https://augustuxue.github.io/posts/aae57e88/</id>
+    <published>2021-03-05T16:26:41.000Z</published>
+    <updated>2021-03-05T17:06:47.211Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>​    今天看小说，发现刺猬猫这两天看不了间贴了，说实话我记得刺猬猫是最先有这个功能的，当时还叫欢乐书客，亮点就是弹幕，前几年感觉它准备大展手脚了，结果现在感觉知道的人还是不多，而且技术部不知道在干什么，啥啥做不好，web直接放弃，只有手机可以看，我tm服了，国内虽然确实有这种倾向，但像他这么绝的还是不多见，好多书web直接看不到，看得到的就只有几本，我一百多本的书架web上只有三本，牛啊！</p><p>​    然后我去v2ex搜了一下，好家伙也都是吐槽的，ios做的好像也是稀烂，不知道是不是钱全部拿去给法务了，这防盗做的是真的不错，那些盗版看着体验垃圾的要死，还不如看正版。但我看的刺猬猫的书也就几本，虽然开始看的多，但真的付费看到底的很少，苹果味咖啡算一个，上本玩家入的坑，结果冲塔了，但现在这本《我竟成了不留姓名的大佬》真的巨合我胃口，当然，有些地方有点中二，毕竟我只是个假二次元，浓度不够高……但瑕不掩瑜，真的巨爱看，很想放在阅读里看，毕竟有web端口，但是这txt真不好搞，v2ex也没声音，然后去了github，果然被我找到了。</p><p>​    其实我之前就看到过一个类似的项目Cirno，结果当时他readme上推荐的api已经废了，腾讯云函数当时还不会本地操作（想想还是懒，应该多搜搜，学习学习的），然后把大佬的项目拉取到本地发现他已经停止维护好长时间了，刚好有个新的项目Cirno-go，就拉取到本地试了一下，go语言写的，我试了好长时间按大佬说的没反应，<code>command not found</code>，好家伙，我寻思着go语言我也没配过，肯定是环境问题啦，配了环境</p><p>​    中间还和舍友打了把CSGO，开局被对面锤爆了，0-3还是0-4来着，我休闲打多了竞技都不适应了，第二局队友架内格夫我拿着沙鹰就往他枪口上撞，上半场一直送头，还好下半场我和杰宝突然猛起来了，我刚把短墙的CT打掉，转头准备支援A点，一瞬间剩下三个都死了，感觉就是1秒之内对面四个人死完了，就TM离谱，对面还特喜欢前压，被我们蹲了好多次，下半场居然翻盘了，emm</p><p>​    配好环境之后<code>go run</code>结果说需要文件，我看看教程，嗯好，刚好主目录里有main.go，运行吧，又让我login，作者说直接输命令就行，<code>cirno login</code>,结果找不到<code>cirno</code>，各种想法试了半天，弃了，刚好看到大佬有另一个项目hbooker-extractor,试试呗，这个不是用go写的，基于前端下载，挺好，按照readme文档很容易的成功了</p><p><img src="https://i.loli.net/2021/03/06/xmNMSZBC3vVj5qH.png" alt="image-20210306005437245" loading="lazy"></p><p>试了一下，我付过费的小说可以直接下载txt，也不像是那些OCR的，语句和安卓刺猬猫看起来没啥区别，总的来说非常好</p><p>​    突然想起来那个cirno项目，好家伙之前我啥都不会，现在好歹见识多一点点了，还能连软件也不会用吗？按照腾讯云官方文档安好了所有（其实一条命令的事儿，但等了好长时间，明明换过源了，中间还失败了一次），然后还是比较顺利的拉去项目上传，得到了url链接，填入大佬的demo，完成，可以在浏览器上看刺猬猫啦！</p><p>​    然后就又去试了一下那个go语言的项目，咱不怕折腾，乐意~不知怎的给我折腾出了个东西，显示这命令D:/GO/src里没有，我一想不对啊，这目录名儿看着眼熟啊，这不我刚刚安装go时候填的文件目录吗，不会是要把这文件夹放进去吧，咱试试，嘿，这命令还真就能找到了，再login啊，顺利的就登上去了，又下载了一遍这个小说，他这目录还挺有讲究，在我用户名下的download里，其实想想人家早就说了是$HOME，我这脑子，早该想到的，哎</p><p>​    想想那些网站OCR的，真是low啊，明天看看大佬怎么做到的，总不可能有现成api给调用吧，今天太晚了，这两天天天坐电脑前面左边肩膀已经开始疼了，不说了，去刷碗了</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css&quot;&gt;&lt;scrip</summary>
+      
+    
+    
+    
+    
+    <category term="分享" scheme="https://augustuxue.github.io/tags/%E5%88%86%E4%BA%AB/"/>
+    
+  </entry>
   
   <entry>
     <title>小爱同学等语音助手使用体验</title>
