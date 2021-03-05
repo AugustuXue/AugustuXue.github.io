@@ -6,7 +6,7 @@
   <link href="https://augustuxue.github.io/atom.xml" rel="self"/>
   
   <link href="https://augustuxue.github.io/"/>
-  <updated>2021-03-03T09:10:03.328Z</updated>
+  <updated>2021-03-05T03:47:31.174Z</updated>
   <id>https://augustuxue.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>小爱同学等语音助手使用体验</title>
+    <link href="https://augustuxue.github.io/posts/b2c73768/"/>
+    <id>https://augustuxue.github.io/posts/b2c73768/</id>
+    <published>2021-03-04T13:40:44.000Z</published>
+    <updated>2021-03-05T03:47:31.174Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h1 id="小爱同学等语音助手使用体验"><a href="#小爱同学等语音助手使用体验" class="headerlink" title="小爱同学等语音助手使用体验"></a>小爱同学等语音助手使用体验</h1><h2 id="事情起因"><a href="#事情起因" class="headerlink" title="事情起因"></a>事情起因</h2><p>​    小米这两天发布了新的笔电，搭载了小爱同学，同时微软商店发布了小爱同学的uwp版，简而言之，第三方电脑也可以使用小爱同学了。</p><p>​    我一向是个喜欢折腾的，当时在B站看到这条视频——说起来也奇怪，这两天我的B站几乎被这个uwp刷屏，一方面可以理解，毕竟主营分享软件方面的up主天天都在找素材，好不容易国内大厂有个完成度比较高的东西出来这不得抢着做一下？一方面我也在疑惑，到底是不是所有人都收到了这类视频，问了一下别的没怎么关注的人，好家伙，人根本没看见，这就让我想起来这两天说的那个教授花钱验证滴滴大数据杀熟的事了，现在想想国内大数据还是蛮恐怖的，只要有你这么个人，对吧，从生到死给你安排的死死的，当然也不止国内了，前两天看推特还看到人家抱怨google等大数据公司因为“过于严格的条例”在大数据方面不如中国的企业，应该有什么什么措施干嘛干嘛，其实也不是什么好东西，丑闻还少吗，偷偷采集用户隐私的事儿，对吧，国内公司就不用说了，哈哈，这还是事儿吗？</p><p>​    然后我就也心动啊，寻思着我也看看怎么回事儿，嘿，二话不说去win10应用商店下载一个，速度很快，很快啊，但听别人说挺慢的，不知道怎么回事儿，对了，这东西uwp应用商店还搜不到，截至现在————北京时间2021年三月四日21：58，有图为证：</p><img src="https://gitee.com/augustusxue/augustu_image/raw/master/img/20210304220718.png" alt="image-20210304215913365" style="zoom:67%;" / loading="lazy"><p>必须要链接，奇奇怪怪，不知道为啥。我也放个链接在这儿，虽然不知道除了我有么有人看</p><p><a href="https://www.microsoft.com/zh-cn/p/%E5%B0%8F%E7%88%B1%E5%90%8C%E5%AD%A6/9mw76kfhnz0c?activetab=pivot:overviewtab#">小爱同学</a></p><h2 id="小爱同学uwp"><a href="#小爱同学uwp" class="headerlink" title="**小爱同学uwp **"></a>**小爱同学uwp **</h2><h3 id="UI"><a href="#UI" class="headerlink" title="UI"></a><strong>UI</strong></h3><ul><li><h4 id="白"><a href="#白" class="headerlink" title="白"></a>白</h4></li></ul><p>​    下完之后我自然要来试一手，毛玻璃效果看着还行，UI不错，它有黑白两种模式，我这种光明正大的人，平时写代码都要特地找light主题，这个肯定不例外</p><img src="https://i.loli.net/2021/03/05/Z76ekptdbIKu3js.png" alt="image-20210304220957244" style="zoom:67%;" / loading="lazy"><p>  但说实话，这白色太眨眼了，大晚上的，亮的我眼疼</p><img src="https://gitee.com/augustusxue/augustu_image/raw/master/img/20210304221135.png" alt="image-20210304221135305" style="zoom:50%;" / loading="lazy"><p>在焦点的时候还好，有一种朦胧面纱的感觉，也不刺眼，轻轻柔柔，一切都好</p><img src="https://gitee.com/augustusxue/augustu_image/raw/master/img/20210304221248.png" alt="image-20210304221247968" style="zoom: 50%;" / loading="lazy"><p>但不在焦点的时候，嚯，整一手电筒</p><ul><li><h4 id="黑"><a href="#黑" class="headerlink" title="黑"></a>黑</h4><p>算了算了，我还是阴暗点吧（写一半发现gitee图床大于1M不给外链显示，差点背过气去）</p></li></ul><img src="https://gitee.com/augustusxue/augustu_image/raw/master/img/20210304232236.png" alt="image-20210304232236638" style="zoom: 67%;" / loading="lazy"><img src="https://gitee.com/augustusxue/augustu_image/raw/master/img/20210304232253.png" alt="image-20210304232253821" style="zoom: 50%;" / loading="lazy"><h3 id="功能"><a href="#功能" class="headerlink" title="功能"></a><strong>功能</strong></h3><ul><li>打开软件</li></ul><p>​    说实话这个UI效果挺好，看着也不错，然后我就寻思着得来看看它主要功能咋样啊，刚好写累了，整个歌听听</p><img src="https://gitee.com/augustusxue/augustu_image/raw/master/img/20210304232418.png" alt="image-20210304232418492" style="zoom: 50%;" / loading="lazy"><p>可能是我英语不标准，查了一下spotify怎么说</p><img src="https://gitee.com/augustusxue/augustu_image/raw/master/img/20210304232549.png" alt="image-20210304232548976" style="zoom: 50%;" / loading="lazy"><p>好家伙，我直接输入行了吧</p><img src="https://gitee.com/augustusxue/augustu_image/raw/master/img/20210304232744.png" alt="image-20210304232744248" style="zoom: 50%;" / loading="lazy"><img src="https://gitee.com/augustusxue/augustu_image/raw/master/img/20210304232827.png" alt="image-20210304232827769" style="zoom: 50%;" / loading="lazy"><p>​    你牛逼，我听音乐你说不懂，我写东西你说放不了音乐（但我测试了一下，chrome等软件还是可以打开的）</p><p>看一下她到底有什么功能吧</p><p><img src="https://gitee.com/augustusxue/augustu_image/raw/master/img/20210304233301.png" alt="image-20210304233300893" loading="lazy"></p><p><img src="https://gitee.com/augustusxue/augustu_image/raw/master/img/20210304233314.png" alt="image-20210304233314381" loading="lazy"></p><p><img src="https://gitee.com/augustusxue/augustu_image/raw/master/img/20210304233327.png" alt="image-20210304233327768" loading="lazy"></p><p>​    嘿，看着还挺全乎，试试天气吧</p><img src="https://gitee.com/augustusxue/augustu_image/raw/master/img/20210304233406.png" alt="image-20210304233406145" style="zoom:50%;" / loading="lazy"><p>​    好家伙，我还以为已经回南京了（后来又测了一次，直接给我定位到枣庄，更离谱了），不知道怎么判断位置的，但说实话这UI真可以，我还挺喜欢的</p><p>看到能打开网址，试试我的小博客</p><img src="https://gitee.com/augustusxue/augustu_image/raw/master/img/20210304233721.png" alt="image-20210304233721179" style="zoom: 50%;" / loading="lazy"><p>emmm，还是你狠啊，还搁这儿听音乐呐，反射弧真够长的</p><h3 id="声音"><a href="#声音" class="headerlink" title="声音"></a><strong>声音</strong></h3><p>​    别的就没啥好说的了，声音有三种模式可调，还挺好，说话声音也不错，不知道api接口开不开放，如果开放的话阅读搞朗读的老哥们应该挺高兴的</p><h3 id="最大缺点：语音键"><a href="#最大缺点：语音键" class="headerlink" title="最大缺点：语音键"></a><strong>最大缺点：语音键</strong></h3><p>​    还有最大一个缺点就是语音键，听说只有最新发布的那个笔记本上才有，普通第三方PC只能点击那个麦克风图标，找了半天B站说有能绑快捷键的，兴冲冲看了一下，发现这快捷键真就是快捷键，打开小爱同学而已，我还以为直接快捷键当它的语音键呢，我Maya它不香吗？直接拖动编辑就行了（有时间可以介绍一下，真的好用）</p><h2 id="小艺"><a href="#小艺" class="headerlink" title="小艺"></a>小艺</h2><p>​    用完小爱我寻思着这得有个对比啊，试试小艺吧，功能方面差不太多，只有国内大众软件才能打开，spotify,telegram之类统统拜拜，UI……好吧，没啥UI，只能说一般，别的还好，比小爱好的就是可以自动唤醒，但毕竟人家是电脑哎，手机上谁不行啊，这又不大好比了，想想这都不是一个平台的有啥好比的，所以我想到了————cortana</p><h2 id="Cortana"><a href="#Cortana" class="headerlink" title="Cortana"></a>Cortana</h2><img src="https://gitee.com/augustusxue/augustu_image/raw/master/img/20210304235545.png" alt="image-20210304235545327" style="zoom:50%;" / loading="lazy"><img src="https://gitee.com/augustusxue/augustu_image/raw/master/img/20210304235715.png" alt="image-20210304235715174" style="zoom:50%;" / loading="lazy"><img src="https://gitee.com/augustusxue/augustu_image/raw/master/img/20210304235746.png" alt="image-20210304235746735" style="zoom:50%;" / loading="lazy"><p>唯一的功能————模仿周星驰？ </p><p>真就只会两句话呗，“抱歉，我不知道这个答案”，“抱歉，我在这方面无法帮到您”</p><p>这程序我都能写，不管用户输入啥，直接</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;抱歉，我不知道这个答案&quot;</span>);</span><br></pre></td></tr></table></figure><p>完事儿</p><p>（去搜了一下好像是微软彻底放弃小娜，疑似另寻新欢准备搞另一个语音助手了）</p><p>​    看了一圈，怪不得小爱同学这么吹，合着还真就人家最好了</p><p>​    但总的来说，感觉大家可以体验一下，但小爱同学不会真的改变我们使用电脑的方式，起码等到它语音键更新以前，我估计都很少会使用</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css&quot;&gt;&lt;scrip</summary>
+      
+    
+    
+    
+    
+    <category term="分享" scheme="https://augustuxue.github.io/tags/%E5%88%86%E4%BA%AB/"/>
+    
+  </entry>
   
   <entry>
     <title>OutLook微软邮件设置——添加QQ邮箱及Gmail邮箱</title>
