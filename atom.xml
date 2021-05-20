@@ -37,6 +37,74 @@
   </entry>
   
   <entry>
+    <title>Joplin使用初体验及简易教程</title>
+    <link href="https://augustuxue.github.io/posts/c2de814d/"/>
+    <id>https://augustuxue.github.io/posts/c2de814d/</id>
+    <published>2021-05-19T13:47:10.000Z</published>
+    <updated>2021-05-20T14:27:51.488Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="缘由"><a href="#缘由" class="headerlink" title="缘由"></a>缘由</h2><p>​    大概一个多月（也许，我记性很差）之前，浏览github的时候看到了它，当时试了一下，因为界面不尽如人意放弃了它。这两天选修课考试，上网找了些资料分享到群里后，闲暇时间想用手机看看，结果发现手机里竟没什么软件可以打开它，十分失望。</p><p>​    说起来还挺巧的，tg关注的一个分享软件的频道恰好推荐给我NotesHub，说是使用github保存数据的在线Markdown笔记服务，让我迫不及待地试了试，结果发现还是基于它自己的服务器，还要注册账号，还只能用github,不能用gitee，github的速度大家懂得都懂，所以无奈放弃。本来想试试别的，结果发现没啥好用的，纯纯写作真是不咋地，导入进去效果不行，而且听说作者人品一般，不符合我这种完美主义者的要求。去github上搜索markdown+android，结果出来的结果都不符合我的要求，排第一的看着不错，结果上次更新是五年前，好家伙！然后找md+多平台，找到了Joplin,大略一试，发现真香。</p><img src="https://gitee.com/augustusxue/augustu_image/raw/master/img/20210519204843.png" alt="image-20210519204843182" style="zoom:25%;" / loading="lazy"><h2 id="简单设置"><a href="#简单设置" class="headerlink" title="简单设置"></a>简单设置</h2><p>​    这个感觉没啥好说的，挺好一软件，就这么整呗，其实虽然是开源的，但我感觉完成度已经很高了。我简单的设置了一下。</p><h3 id="语言"><a href="#语言" class="headerlink" title="语言"></a>语言</h3><p>点击：Tools-&gt;Options，语言改成中文简体</p><p><img src="https://gitee.com/augustusxue/augustu_image/raw/master/img/20210519205105.png" alt="image-20210519205105755" loading="lazy"></p><h3 id="外部编辑器"><a href="#外部编辑器" class="headerlink" title="外部编辑器"></a>外部编辑器</h3><p>Path:框里面选择外部编辑器的位置，找到所属exe就行了，其实不选也可以，本来颜值就不错，但在PC上我还是偏爱Typora</p><p>Arguments:-n</p><h3 id="同步"><a href="#同步" class="headerlink" title="同步"></a>同步</h3><h4 id="坚果云WebDav配置"><a href="#坚果云WebDav配置" class="headerlink" title="坚果云WebDav配置"></a>坚果云WebDav配置</h4><p>同步选择还蛮多的，但是国内适合我们用的就那几个，OneDrive虽然也能用，但是那个速度懂得都懂，我还是倾向于WebDav,而我们国内能用好用的也就只有坚果云了，简单介绍一下使用方法</p><ul><li>1、注册    感觉这个应该不用多说吧？</li><li>2、在浏览器右上角处点击自己的用户名-&gt;账户信息-&gt;安全选项</li></ul><p><img src="https://gitee.com/augustusxue/augustu_image/raw/master/img/20210519210210.png" alt="image-20210519210210443" loading="lazy"></p><p><img src="https://gitee.com/augustusxue/augustu_image/raw/master/img/20210519210445.png" alt="image-20210519210444927" loading="lazy"></p><p>向下滑，找到“添加应用”按钮，点击-&gt;输入“joplin”-&gt;点击“生成密码”-&gt;复制密码-&gt;点击“完成”</p><p><img src="https://gitee.com/augustusxue/augustu_image/raw/master/img/20210519211303.png" alt="image-20210519211303545" loading="lazy"></p><p>点击左侧“我的文件”-&gt;创建文件夹“joplin”（不能写错）</p><p><img src="https://gitee.com/augustusxue/augustu_image/raw/master/img/20210519211226.png" alt="image-20210519211226307" loading="lazy"></p><h4 id="PC端同步"><a href="#PC端同步" class="headerlink" title="PC端同步"></a>PC端同步</h4><p>回到Joplin</p><ul><li><p>左侧选项栏里选择“同步”</p></li><li><p>同步目标选择”WebDav”</p></li><li><p>WebDAV URL填写</p><pre class="language-none"><code class="language-none">https:&#x2F;&#x2F;dav.jianguoyun.com&#x2F;dav&#x2F;joplin</code></pre><p>一定要写/dav/joplin，而不是/dav，血泪经验啊，还好<a href="https://github.com/laurent22/joplin/issues/3714">一个老哥跟我遇到了相同的问题</a></p><p><img src="https://gitee.com/augustusxue/augustu_image/raw/master/img/20210519211522.png" alt="image-20210519211522534" loading="lazy"></p></li><li><p>WebDAV 密码 就填写刚刚复制的密码（忘了也没关系，可以再复制一次）</p></li><li><p>单击“检查同步配置”，显示成功！</p></li></ul><h4 id="android同步"><a href="#android同步" class="headerlink" title="android同步"></a>android同步</h4><p>大同小异</p><ul><li>左侧选项栏里选择“配置”</li><li>同步选择“WebDav”,底下与PC端同样填写</li><li>测试完后记得上方点保存按钮</li></ul><h3 id="外观"><a href="#外观" class="headerlink" title="外观"></a>外观</h3><p>我选择了“北欧（Nord）”主题，感觉还不错</p><p><img src="https://gitee.com/augustusxue/augustu_image/raw/master/img/20210519212554.png" alt="image-20210519212553915" loading="lazy"></p>  <img src="https://gitee.com/augustusxue/augustu_image/raw/master/img/20210519212646.png" alt="image-20210519212646410" style="zoom: 50%;" / loading="lazy"><p>但是PC端编辑器感觉还是没有Typora好用，小短篇在里面写，长篇文章直接外部编辑器就行了，挺好，说实话。</p><p>至于安卓端，不会有人真的用手机写文档吧？我感觉安卓端看着好看就完事儿了，偶尔也能编辑一下，毕竟手机打字真是反人类or2</p><p>测试了一下是真的爽，电脑上手机上无缝同步（点击同步按钮，我感觉不算很麻烦），手机上终于可以看md了，也可以简单列下清单，写个笔记啥的</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css&quot;&gt;&lt;scrip</summary>
+      
+    
+    
+    
+    
+    <category term="教程" scheme="https://augustuxue.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="分享" scheme="https://augustuxue.github.io/tags/%E5%88%86%E4%BA%AB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>墨西哥餐厅体验</title>
+    <link href="https://augustuxue.github.io/posts/433f5d28/"/>
+    <id>https://augustuxue.github.io/posts/433f5d28/</id>
+    <published>2021-03-13T13:41:33.000Z</published>
+    <updated>2021-05-20T14:27:51.528Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="墨西哥餐厅食后感"><a href="#墨西哥餐厅食后感" class="headerlink" title="墨西哥餐厅食后感"></a>墨西哥餐厅食后感</h2><p>​    进去以后可能是时间不对，店里非常冷清，只有两个人。</p><p>​    我们先点了杯气泡水，名字太长记不住了</p><img src="https://gitee.com/augustusxue/augustu_image/raw/master/img/20210313231610.jpg" alt="IMG_20210313_175820" style="zoom: 25%;" / loading="lazy"><p>颜值还是可以的，拍的不是很好，一朵花在粉红色的气泡水里，美丽典雅，但里面2/3是冰，哈哈</p><img src="https://gitee.com/augustusxue/augustu_image/raw/master/img/20210313231810.jpg" alt="IMG_20210313_180111" style="zoom:25%;" / loading="lazy"><p>小吃拼盘，还行，一般</p><img src="https://gitee.com/augustusxue/augustu_image/raw/master/img/20210313225159.jpg" alt="img" style="zoom: 33%;" / loading="lazy"><p>面包，硬硬的，有点咸了</p><img src="https://gitee.com/augustusxue/augustu_image/raw/master/img/20210313232016.jpg" alt="IMG_20210313_181248" style="zoom: 25%;" / loading="lazy"><p>​    薄饼，不错，里面有那种水果的口感，一口咬下去果汁都在嘴里流出，伴着里面的肉一起咀嚼，非常不错，我吃的不是很习惯，以前很少吃过这种肉和水果混在一起，口感几乎区分不出的食物</p><img src="https://gitee.com/augustusxue/augustu_image/raw/master/img/20210313232224.jpg" alt="img" style="zoom: 33%;" / loading="lazy"><p>​    蜗牛，说实话刚端上来我整个人都不好了，味儿太冲了，尝了一下，口感真不错，像是大号的螺狮，但是软一点，很Q弹，但是味道是真的不行，也许是我欣赏不来墨西哥的口味，感觉都有种刺激性气体的味道了，尝了两个实在受不了了</p><img src="https://gitee.com/augustusxue/augustu_image/raw/master/img/20210313233052.jpg" alt="img" style="zoom:33%;" / loading="lazy"><p>​    蔬菜沙拉，咸的一批，口感还行，不是很喜欢</p><img src="https://gitee.com/augustusxue/augustu_image/raw/master/img/20210313233139.jpg" alt="img" style="zoom:33%;" / loading="lazy"><p>​    塔克，感觉和龙哥的煎饼没啥区别，但是真不错，上面的白色酱料味道很淡，奶油的口感却一点都不腻，里面的牛肉味道非常好，搭配起来相得益彰，是我最满意的一道菜</p><img src="https://gitee.com/augustusxue/augustu_image/raw/master/img/20210313225142.jpg" alt="img" style="zoom: 33%;" / loading="lazy"><p>​    牛排，真的一般，一点都不嫩，筋也比较多，但切的时候可以看到渗出的肌红蛋白，吃起来感觉也很一般，没有那种没熟的感觉，但也不是很嫩。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css&quot;&gt;&lt;scrip</summary>
+      
+    
+    
+    
+    
+    <category term="-分享 -随笔" scheme="https://augustuxue.github.io/tags/%E5%88%86%E4%BA%AB-%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>刺猬猫书籍下载</title>
+    <link href="https://augustuxue.github.io/posts/aae57e88/"/>
+    <id>https://augustuxue.github.io/posts/aae57e88/</id>
+    <published>2021-03-05T16:26:41.000Z</published>
+    <updated>2021-05-20T14:27:51.507Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>​    今天看小说，发现刺猬猫这两天看不了间贴了，说实话我记得刺猬猫是最先有这个功能的，当时还叫欢乐书客，亮点就是弹幕，前几年感觉它准备大展手脚了，结果现在感觉知道的人还是不多，而且技术部不知道在干什么，啥啥做不好，web直接放弃，只有手机可以看，我tm服了，国内虽然确实有这种倾向，但像他这么绝的还是不多见，好多书web直接看不到，看得到的就只有几本，我一百多本的书架web上只有三本，牛啊！</p><p>​    然后我去v2ex搜了一下，好家伙也都是吐槽的，ios做的好像也是稀烂，不知道是不是钱全部拿去给法务了，这防盗做的是真的不错，那些盗版看着体验垃圾的要死，还不如看正版。但我看的刺猬猫的书也就几本，虽然开始看的多，但真的付费看到底的很少，苹果味咖啡算一个，上本玩家入的坑，结果冲塔了，但现在这本《我竟成了不留姓名的大佬》真的巨合我胃口，当然，有些地方有点中二，毕竟我只是个假二次元，浓度不够高……但瑕不掩瑜，真的巨爱看，很想放在阅读里看，毕竟有web端口，但是这txt真不好搞，v2ex也没声音，然后去了github，果然被我找到了。</p><p>​    其实我之前就看到过一个类似的项目Cirno，结果当时他readme上推荐的api已经废了，腾讯云函数当时还不会本地操作（想想还是懒，应该多搜搜，学习学习的），然后把大佬的项目拉取到本地发现他已经停止维护好长时间了，刚好有个新的项目Cirno-go，就拉取到本地试了一下，go语言写的，我试了好长时间按大佬说的没反应，<code>command not found</code>，好家伙，我寻思着go语言我也没配过，肯定是环境问题啦，配了环境</p><p>​    中间还和舍友打了把CSGO，开局被对面锤爆了，0-3还是0-4来着，我休闲打多了竞技都不适应了，第二局队友架内格夫我拿着沙鹰就往他枪口上撞，上半场一直送头，还好下半场我和杰宝突然猛起来了，我刚把短墙的CT打掉，转头准备支援A点，一瞬间剩下三个都死了，感觉就是1秒之内对面四个人死完了，就TM离谱，对面还特喜欢前压，被我们蹲了好多次，下半场居然翻盘了，emm</p><p>​    配好环境之后<code>go run</code>结果说需要文件，我看看教程，嗯好，刚好主目录里有main.go，运行吧，又让我login，作者说直接输命令就行，<code>cirno login</code>,结果找不到<code>cirno</code>，各种想法试了半天，弃了，刚好看到大佬有另一个项目hbooker-extractor,试试呗，这个不是用go写的，基于前端下载，挺好，按照readme文档很容易的成功了</p><p><img src="https://i.loli.net/2021/03/06/xmNMSZBC3vVj5qH.png" alt="image-20210306005437245" loading="lazy"></p><p>试了一下，我付过费的小说可以直接下载txt，也不像是那些OCR的，语句和安卓刺猬猫看起来没啥区别，总的来说非常好</p><p>​    突然想起来那个cirno项目，好家伙之前我啥都不会，现在好歹见识多一点点了，还能连软件也不会用吗？按照腾讯云官方文档安好了所有（其实一条命令的事儿，但等了好长时间，明明换过源了，中间还失败了一次），然后还是比较顺利的拉去项目上传，得到了url链接，填入大佬的demo，完成，可以在浏览器上看刺猬猫啦！</p><p>​    然后就又去试了一下那个go语言的项目，咱不怕折腾，乐意~不知怎的给我折腾出了个东西，显示这命令D:/GO/src里没有，我一想不对啊，这目录名儿看着眼熟啊，这不我刚刚安装go时候填的文件目录吗，不会是要把这文件夹放进去吧，咱试试，嘿，这命令还真就能找到了，再login啊，顺利的就登上去了，又下载了一遍这个小说，他这目录还挺有讲究，在我用户名下的download里，其实想想人家早就说了是$HOME，我这脑子，早该想到的，哎</p><p>​    想想那些网站OCR的，真是low啊，明天看看大佬怎么做到的，总不可能有现成api给调用吧，今天太晚了，这两天天天坐电脑前面左边肩膀已经开始疼了，不说了，去刷碗了</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css&quot;&gt;&lt;scrip</summary>
+      
+    
+    
+    
+    
+    <category term="分享" scheme="https://augustuxue.github.io/tags/%E5%88%86%E4%BA%AB/"/>
+    
+  </entry>
+  
+  <entry>
     <title>小爱同学等语音助手使用体验</title>
     <link href="https://augustuxue.github.io/posts/b2c73768/"/>
     <id>https://augustuxue.github.io/posts/b2c73768/</id>
@@ -87,7 +155,7 @@
     <link href="https://augustuxue.github.io/posts/ec40ca13/"/>
     <id>https://augustuxue.github.io/posts/ec40ca13/</id>
     <published>2021-03-01T16:14:31.000Z</published>
-    <updated>2021-03-04T16:07:17.000Z</updated>
+    <updated>2021-05-20T14:27:51.433Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>今天心血来潮勉强搭了一个博客</p>]]></content>
     
